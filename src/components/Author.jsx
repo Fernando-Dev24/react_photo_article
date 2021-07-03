@@ -37,15 +37,15 @@ const Author = () => {
                   <MoreOptionsContent>
                      <span className="option__label">Share</span>
                      <nav className="share__nav">
-                        <FacebookShareButton className="share__option" url="">
+                        <FacebookShareButton className="share__option" url="https://photoarticle.netlify.app/">
                            <FontAwesomeIcon icon={['fab', 'facebook-square']} />
                         </FacebookShareButton>
 
-                        <TwitterShareButton className="share__option" url="">
+                        <TwitterShareButton className="share__option" url="https://photoarticle.netlify.app/">
                            <FontAwesomeIcon icon={['fab', 'twitter']} />
                         </TwitterShareButton>
                         
-                        <WhatsappShareButton className="share__option" url="">
+                        <WhatsappShareButton className="share__option" url="https://photoarticle.netlify.app/">
                            <FontAwesomeIcon icon={['fab', 'whatsapp']} />
                         </WhatsappShareButton>
                      </nav>
@@ -57,15 +57,15 @@ const Author = () => {
                <MoreOptionsContent>
                   <span className="option__label">Share</span>
                   <nav className="share__nav">
-                     <FacebookShareButton className="share__option" url="">
+                     <FacebookShareButton className="share__option" url="https://photoarticle.netlify.app/">
                         <FontAwesomeIcon icon={['fab', 'facebook-square']} />
                      </FacebookShareButton>
 
-                     <TwitterShareButton className="share__option" url="">
+                     <TwitterShareButton className="share__option" url="https://photoarticle.netlify.app/">
                         <FontAwesomeIcon icon={['fab', 'twitter']} />
                      </TwitterShareButton>
                      
-                     <WhatsappShareButton className="share__option" url="">
+                     <WhatsappShareButton className="share__option" url="https://photoarticle.netlify.app/">
                         <FontAwesomeIcon icon={['fab', 'whatsapp']} />
                      </WhatsappShareButton>
                   </nav>
