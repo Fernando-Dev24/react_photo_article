@@ -1,13 +1,111 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  vertical-align: top;
+}
+
+.wrapper {
+  width: 1000px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.cardSection {
+  width: 100%;
+}
+
+.cardBanner {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+
+.author {
+  width: 4vw;
+  max-width: 64px;
+  min-width: 64px;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-size: 1rem;
+}
+
+.author-date {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, .6); 
+}
+
+.option__label {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffffb6;
+}
+
+.share__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.share__nav .share__option {
+  display: block;
+  margin: 0 6px;
+  color: #FFF !important;
+  font-size: 1.4rem;
+}
+
+.active {
+  display: flex;
+}
+
+.more-options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #168;
+  border-radius: 5px;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .cardBanner {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
 }
