@@ -5,7 +5,7 @@ import Author from './Author';
 const ArticleContent = () => {
    return (
       <Container>
-         <Title>A human creation that, perfectly, could be similar to the God's creation</Title>
+         <Title>A human invention that, perfectly, could be similar to the God's creation</Title>
          <HookText>Yes, I refer to a camera. I mean, it was created by a human being, and perhaps, could be similar to our eyes. One of my favorites hobbies and where, for a foreign reason; I found peace when you think about how perfect we were created.</HookText>
          <Author />
       </Container>
