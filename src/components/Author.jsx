@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import articleAuthor from './../article_avatar.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -83,10 +83,8 @@ const ContainerAuthor = styled.section`
    display: flex;
    justify-content: space-between;
    align-items: center;
-
-   @media screen and (max-width: 400px) {
+   @media screen and (max-width: 320px) {
       flex-direction: column;
-      align-items: flex-start;
    }
 `;
 
@@ -132,7 +130,7 @@ const MoreOptions = styled.div`
    background: #0e2e6b;
    border-radius: 5px;
 
-   @media screen and (max-width: 400px) {
+   @media screen and (max-width: 320px) {
       flex-direction: column;
       font-size: 1rem;
    }
